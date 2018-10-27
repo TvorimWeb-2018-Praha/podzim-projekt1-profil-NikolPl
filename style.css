@@ -16,4 +16,100 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.profil {
+    max-width:250px;
+    box-shadow: 1px 1px 30px 1px #31363b;
+}
+
+.hlavicka {
+    background-color: #31363b;
+}
+
+.foto {
+    max-width: 100%;
+}
+
+.obsah {
+    background-color: #31363b;
+    color:#bdc3c7;
+    padding:10px 20px 20px;
+}
+
+.logo {
+    border-radius: 100%;
+    background-color:#b92e81;
+    position:absolute;
+    box-shadow: 1px 1px 10px 1px #31363b;
+    left:180px; 
+    top:150px;
+}
+
+.obsah p{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.obsah h1 {
+    color: white;
+    font-size: 24px;
+    padding: 0px 0px 10px 0px;
+}
+.odkazy {
+    margin:auto;
+    padding:0px;
+}
+.odkazy ul{
+    width: 100%;
+    margin:auto;
+    padding:0px;
+}
+
+.odkazy li{
+    display: block;  
+    text-align: center;
+    background-color:  #31363b;
+    font-weight: bold;
+}
+
+.odkazy a {
+    color:#bdc3c7;
+    text-decoration: none;
+    font-variant: small-caps;
+    display:block;
+    padding:0.5em;
+    font-size: 18px;
+    border:1px solid #3f464d;
+}
+.facebook {
+    float: left;
+    min-width: 50%;
+}
+
+.facebook a:hover{
+    background-color: #3b5998;
+    color: white;
+    border:1px solid #3b5998;
+
+    
+}
+
+.twitter a:hover{
+    background-color: #1da1f2;
+    color: white;
+    border:1px solid #1da1f2;
+}
+
+.portfolio a:hover {
+    color:  #31363b;
+    background-color:  #bdc3c7;
+    border:1px solid #bdc3c7;
+}
+
+.clearfix{
+    clear: both;
 }
